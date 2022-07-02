@@ -930,6 +930,15 @@ section {
   transform: translate(-50%, -50%) scale(3);
 }
 
+/* FOOTER */
+footer {
+  text-align: center;
+  font-weight: bold;
+  padding: 2rem 0 2rem 0;
+  background: var(--accent-color);
+  color: var(--font-color);
+}
+
 /* UTILITIES */
 
 .hidden {
