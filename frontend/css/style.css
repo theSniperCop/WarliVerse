@@ -26,7 +26,8 @@ body {
   background-image: url("../images/x-icon/body2.png");
   display: block;
   flex-flow: column;
-  height: 100vh;
+  /*height: 100vh;*/
+  min-height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
 
@@ -180,7 +181,7 @@ header .container {
   align-items: center;
   height: 100%;
   text-align: center;
-  margin: 0 auto 0 35vw;
+  margin: 0 auto 0 auto;
   opacity: 0;
   transform: translateY(10vh);
   transition: all 0.5s ease-in-out;
@@ -193,14 +194,14 @@ header .container {
 
 .not-connected h1 {
   text-shadow: 2px 2px 0 var(--accent-color);
-  font-style: italic;
+  font-style: normal;
   margin: 2rem 0;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
 }
 
 .not-connected p {
   font-size: 1.1rem;
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   line-height: 1.8;
 }
 
@@ -242,7 +243,7 @@ header .container {
   padding: 1rem 2rem;
   background: var(--btn-bg-color);
   color: var(--accent-color);
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   font-style: italic;
   font-weight: bold;
   font-size: 1rem;
@@ -281,6 +282,7 @@ header .container {
     margin-left: 0;
     padding: 0.5rem 1rem;
     max-width: 8rem;
+    font-size: 0.75rem;
   }
 
   .hero-btn {
@@ -349,7 +351,7 @@ section {
   color: var(--font-color);
   font-size: 2rem;
   font-weight: 700;
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   padding: 1rem;
   display: inline-block;
   width: 100%;
@@ -359,8 +361,8 @@ section {
 }
 .countdown .clock-item .count-text {
   background: var(--btn-bg-color);
-  font-family: var(--font-secondary);
-  font-size: 1.1rem;
+  font-family: var(--font-primary);
+  font-size: 1rem;
   color: var(--bg-color);
   padding: 0.5rem 0.7rem;
   display: inline-block;
@@ -372,9 +374,9 @@ section {
 
 .countdown h1 {
   text-shadow: 2px 2px 0 var(--accent-color);
-  font-style: italic;
+  font-style: normal;
   margin: 2rem 0;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   text-align: center;
 }
 
@@ -383,8 +385,8 @@ section {
 }
 
 .countdown > p {
-  font-size: 1.1rem;
-  font-family: var(--font-secondary);
+  font-size: 1rem;
+  font-family: var(--font-primary);
   margin-bottom: 2rem;
   text-align: center;
 }
@@ -406,7 +408,7 @@ section {
     font-size: 1rem;
   }
   .countdown h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin: 1rem 0;
   }
   .countdown h2 {
@@ -500,12 +502,12 @@ section {
 }
 
 .minted-container h1 {
-  font-size: 5rem;
+  font-size: 2.5rem;
   margin-bottom: 2rem;
 }
 
 .minted-container h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
