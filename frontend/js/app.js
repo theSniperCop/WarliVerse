@@ -25,17 +25,53 @@ window.addEventListener("DOMContentLoaded", async () => {
   }
 
   const splide = new Splide(".splide", {
+    // type: "loop",
+    // arrows: false,
+    // perMove: 3,
+    // pagination: false,
+    autoplay: true,
+    direction: 'ltr',
+    // height: "25vw",
+    // width: '25vw',
+    // autoHeight: true,
+    type   : 'loop',
+    drag   : 'free',
+    focus  : 'center',
+    perPage: 3,
+    breakpoints: {
+      640: {
+        perPage: 1,
+      },
+      768: {
+        perPage: 2,
+      },
+      1024: {
+        perPage: 3,
+      },
+      1440: {
+        perPage: 4,
+      },
+    },
+    autoStart: true,
+    autoScroll: {speed: 10,}
+  });
+  splide.mount();
+  AOS.init();
+
+  const splideTwo = new Splide(".splide-2", {
     type: "loop",
     arrows: false,
     perMove: 3,
     pagination: false,
     autoplay: true,
-    direction: 'ttb',
-    height: "calc(100vh - 90px)",
-    width: '30vw',
-    autoHeight: true,
+    perPage: 5,
+    breakpoints: {
+      768: {
+        perPage: 3,
+      },
+    },
   });
-  splide.mount();
+  splideTwo.mount();
 
   updateConnectStatus();
   if (MetaMaskOnboarding.isMetaMaskInstalled()) {
