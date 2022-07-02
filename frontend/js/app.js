@@ -65,21 +65,6 @@ window.addEventListener("DOMContentLoaded", async () => {
   splide.mount();
   AOS.init();
 
-  const splideTwo = new Splide(".splide-2", {
-    type: "loop",
-    arrows: false,
-    perMove: 3,
-    pagination: false,
-    autoplay: true,
-    perPage: 5,
-    breakpoints: {
-      768: {
-        perPage: 3,
-      },
-    },
-  });
-  splideTwo.mount();
-
 
   updateConnectStatus();
   if (MetaMaskOnboarding.isMetaMaskInstalled()) {
