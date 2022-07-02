@@ -23,12 +23,22 @@
 }
 
 body {
-  background-color: var(--bg-color);
-  display: flex;
+  /*background-color: var(--bg-color);
+  display: flex;*/
   flex-flow: column;
   height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+  background-image: url("../images/x-icon/body2.png");
+  display: block;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace
 }
 
 .container {
@@ -44,8 +54,10 @@ body {
 /* HEADER */
 
 header {
-  background-color: var(--bg-color);
+  /*background-color: var(--bg-color);*/
   box-shadow: var(--header-shadow);
+
+  background-image: url("../images/x-icon/body2.png");
 }
 
 header .container {
@@ -58,6 +70,17 @@ header .container {
   display: flex;
   gap: 2rem;
   align-items: center;
+}
+
+/* mobilebg */
+
+.mobilebg {
+  position: relative;
+  right: 0;
+  bottom: 0;
+}
+.mobilebg .img {
+  width: 100%;
 }
 
 /* NOT CONNECTED */
