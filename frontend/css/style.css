@@ -223,18 +223,18 @@ header .container {
   transform: translateY(0);
 }
 
-.not-connected h1 {
+/* .not-connected h1 {
   text-shadow: 2px 2px 0 var(--accent-color);
   font-style: normal;
   margin: 2rem 0;
-  /* font-size: 2.5rem; */
+  font-size: 2.5rem;
 }
 
 .not-connected p {
-  /* font-size: 1rem; */
+  font-size: 1rem;
   font-family: var(--font-primary);
   line-height: 1.8;
-}
+} */
 
 .not-connected a {
   text-decoration: none;
