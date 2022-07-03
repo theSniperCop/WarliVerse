@@ -33,7 +33,7 @@ window.addEventListener("DOMContentLoaded", async () => {
 
   const splide = new Splide(".splide", {
     // type: "loop",
-    arrows: false,
+    // arrows: false,
     // perMove: 3,
     // pagination: false,
     autoplay: true,
@@ -45,7 +45,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     drag   : 'free',
     focus  : 'center',
     perPage: 1.5,
-    gap: 18,
+    
     //breakpoints: {
     //  640: {
     //    perPage: 1,
