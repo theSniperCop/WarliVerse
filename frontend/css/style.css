@@ -547,7 +547,7 @@ section {
 
 .collections .row img {
   width: 90%;
-  padding: 0 2rem;
+  padding: 0 0rem;
 }
 
 .collection {
@@ -560,6 +560,11 @@ section {
 @media screen and (max-width: 768px) {
  .collections h1 {
   font-size: 2.5rem;
+}
+
+.collection {
+  width: 100%;
+  margin: 1rem;
 }
 
 .collections .row {
