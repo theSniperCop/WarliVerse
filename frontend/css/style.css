@@ -161,6 +161,10 @@ header .container {
     max-width: 25%;
   }
 
+  .intro-text p {
+    font-size: 1rem;
+  }
+
   @media screen and (max-width: 768px) {
     .intro {
       margin-top: 1rem;
@@ -170,6 +174,10 @@ header .container {
   .intro-text {
     flex: 50% !important;
     max-width: 50% !important;
+  }
+
+  .intro-text p {
+    font-size: 1rem;
   }
 }
 
@@ -182,6 +190,10 @@ header .container {
   .intro-text {
     flex: 100% !important;
     max-width: 100% !important;
+  }
+
+  .intro-text p {
+    font-size: 1rem;
   }
 }
 
