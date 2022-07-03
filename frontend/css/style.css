@@ -648,6 +648,18 @@ section {
   z-index: 1;
 }
 
+.splide2 {
+  /*  position: absolute;
+  top: 90px;
+  left: 5rem;
+  z-index: -1;*/
+  position: relative;
+  top: auto;
+  left: 0rem;
+  right: 0rem;
+  z-index: 1;
+}
+
 .splide__slide {
   border: var(--accent-color) solid;
   border-width: 5px 10px;
@@ -659,11 +671,11 @@ section {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .splide-2 .splide__slide img {
     width: 33.3vw;
   }
-}
+} */
 
 /* Roadmap */
 
