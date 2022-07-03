@@ -39,9 +39,9 @@ body {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 768px) {
-h1 {
-  font-size: 2.5rem;
-}
+  h1 {
+    font-size: 2.5rem;
+  }
 }
 
 code {
@@ -84,9 +84,11 @@ header .container {
     width: 25vw;
     margin-right: 10vw;
   }
+
   .menu {
     gap: 1rem;
   }
+
   .menu img {
     width: 5vw;
   }
@@ -100,6 +102,7 @@ header .container {
   right: 0;
   bottom: 0;
 }
+
 .mobilebg .img {
   width: 100%;
 }
@@ -257,9 +260,11 @@ header .container {
   text-decoration: none;
   outline: none;
 }
+
 .btn:hover {
   box-shadow: none;
 }
+
 .btn:disabled {
   cursor: default;
 }
@@ -343,11 +348,13 @@ section {
   display: flex;
   gap: 2rem;
 }
+
 .countdown .clock-item {
   list-style: none;
   width: 70px;
   height: auto;
 }
+
 .countdown .clock-item .count-number {
   background: var(--accent-color);
   color: var(--font-color);
@@ -361,6 +368,7 @@ section {
   line-height: 1;
   border-radius: 4px 4px 0 0;
 }
+
 .countdown .clock-item .count-text {
   background: var(--btn-bg-color);
   font-family: var(--font-primary);
@@ -386,7 +394,7 @@ section {
   margin-top: 1rem;
 }
 
-.countdown > p {
+.countdown>p {
   font-size: 1rem;
   font-family: var(--font-primary);
   margin-bottom: 2rem;
@@ -400,22 +408,28 @@ section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+
   .countdown .clock-item {
     width: 100%;
   }
+
   .countdown .clock-item .count-number {
     font-size: 1.5rem;
   }
+
   .countdown .clock-item .count-text {
     font-size: 1rem;
   }
+
   .countdown h1 {
     font-size: 2.5rem;
     margin: 1rem 0;
   }
+
   .countdown h2 {
     padding-top: 0.5rem;
   }
+
   .countdown p {
     font-size: 1rem;
   }
@@ -447,7 +461,7 @@ section {
   border-radius: 5px;
 }
 
-.mint-qty > span {
+.mint-qty>span {
   display: flex;
 }
 
@@ -520,7 +534,8 @@ section {
 /* COLLECTIONS */
 
 .collections {
-  background: var(--accent-color);
+  /*  background: var(--accent-color);*/
+
   text-align: center;
   padding: 3rem 0;
 
@@ -551,6 +566,8 @@ section {
 }
 
 .collection {
+  border-radius: 5px;
+  border: 3px solid var(--accent-color);
   width: 50%;
   margin: 1rem;
 }
@@ -558,25 +575,27 @@ section {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 768px) {
- .collections h1 {
-  font-size: 2.5rem;
-}
+  .collections h1 {
+    font-size: 2.5rem;
+  }
 
-.collection {
-  width: 100%;
-  margin: 1rem;
-}
+  .collection {
+    border-radius: 5px;
+    border: 3px solid var(--accent-color);
+    width: 100%;
+    margin: 1rem;
+  }
 
-.collections .row {
-  flex-direction: column;
-  gap: 2rem;
-}
+  .collections .row {
+    flex-direction: column;
+    gap: 2rem;
+  }
 }
 
 /* SLIDDER */
 
 .splide {
-/*  position: absolute;
+  /*  position: absolute;
   top: 90px;
   left: 5rem;
   z-index: -1;*/
@@ -599,9 +618,9 @@ section {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 768px) {
-.splide-2 .splide__slide img {
-  width: 33.3vw;
-}
+  .splide-2 .splide__slide img {
+    width: 33.3vw;
+  }
 }
 
 /* Roadmap */
@@ -792,13 +811,13 @@ section {
 }
 
 @media screen and (max-width: 768px) {
-.roadmap {
-  margin-top: 1rem;
-}
+  .roadmap {
+    margin-top: 1rem;
+  }
 
-.wrapper {
-  margin: 1rem auto;
-}
+  .wrapper {
+    margin: 1rem auto;
+  }
 }
 
 @media (max-width: 440px) {
@@ -848,14 +867,14 @@ section {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 768px) {
- .team h1 {
-  font-size: 2.5rem;
-}
+  .team h1 {
+    font-size: 2.5rem;
+  }
 
-.team .row {
-  flex-direction: column;
-  gap: 2rem;
-}
+  .team .row {
+    flex-direction: column;
+    gap: 2rem;
+  }
 }
 
 /* FAQ */
@@ -971,15 +990,16 @@ section {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 768px) {
-.faq h2 {
-  width: 90%;
-  font-size: 1.5rem;
+  .faq h2 {
+    width: 90%;
+    font-size: 1.5rem;
+  }
+
+  .faq p {
+    font-size: 1rem;
+  }
 }
 
-.faq p {
-  font-size: 1rem;
-}
-}
 /* SPINNER */
 .dot-spin {
   position: absolute;
