@@ -200,6 +200,13 @@ header .container {
   .intro-text {
     flex: 100% !important;
     max-width: 100% !important;
+      align-items: center;
+      height: 100%;
+      text-align: center;
+      margin: 0 auto 0 auto;
+      opacity: 0;
+      transition: all 0.5s ease-in-out;
+    
   }
 
 /*   .intro-text p {
@@ -248,7 +255,7 @@ header .container {
 
 @media screen and (max-width: 768px) {
   .not-connected {
-    background-color: var(--bg-color-transparent);
+    /* background-color: var(--bg-color-transparent); */
     border-radius: 5px;
     padding: 2rem;
     margin: 0 auto;
@@ -265,7 +272,7 @@ header .container {
   .not-connected p {
     margin: 0 0;
   }
-  
+
   /* .not-connected a {
     font-size: 1.5rem;
   } */
@@ -325,6 +332,7 @@ header .container {
 
   .hero-btn {
     font-size: 1rem;
+    padding: 1rem 1rem;
   }
 }
 
