@@ -65,6 +65,40 @@ window.addEventListener("DOMContentLoaded", async () => {
   splide.mount();
   AOS.init();
 
+  const splide2 = new Splide(".splide2", {
+    // type: "loop",
+    // arrows: false,
+    // perMove: 3,
+    // pagination: false,
+    autoplay: true,
+    direction: 'ltr',
+    // height: "25vw",
+    // width: '25vw',
+    // autoHeight: true,
+    type   : 'loop',
+    drag   : 'free',
+    focus  : 'center',
+    perPage: 1.5,
+    //breakpoints: {
+    //  640: {
+    //    perPage: 1,
+    //  },
+    //  768: {
+    //    perPage: 2,
+    //  },
+    //  1024: {
+    //    perPage: 3,
+    //  },
+    //  1440: {
+    //    perPage: 4,
+    //  },
+    //},
+    autoStart: true,
+    autoScroll: {speed: 10,}
+  });
+  splide2.mount();
+  AOS.init();
+
 
   updateConnectStatus();
   if (MetaMaskOnboarding.isMetaMaskInstalled()) {
