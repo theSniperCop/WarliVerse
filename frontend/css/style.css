@@ -147,6 +147,14 @@ header .container {
   text-align: center;
 }
 
+.intro-p {
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  opacity: 0;
+}
+
 .inner-grid {
   flex: 25%;
   max-width: 25%;
@@ -200,13 +208,6 @@ header .container {
   .intro-text {
     flex: 100% !important;
     max-width: 100% !important;
-      align-items: center;
-      height: 100%;
-      text-align: center;
-      margin: 0 auto 0 auto;
-      opacity: 0;
-      transition: all 0.5s ease-in-out;
-    
   }
 
 /*   .intro-text p {
