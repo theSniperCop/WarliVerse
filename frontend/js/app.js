@@ -44,21 +44,21 @@ window.addEventListener("DOMContentLoaded", async () => {
     type   : 'loop',
     drag   : 'free',
     focus  : 'center',
-    perPage: 3,
-    breakpoints: {
-      640: {
-        perPage: 1,
-      },
-      768: {
-        perPage: 2,
-      },
-      1024: {
-        perPage: 3,
-      },
-      1440: {
-        perPage: 4,
-      },
-    },
+    perPage: 1.5,
+    //breakpoints: {
+    //  640: {
+    //    perPage: 1,
+    //  },
+    //  768: {
+    //    perPage: 2,
+    //  },
+    //  1024: {
+    //    perPage: 3,
+    //  },
+    //  1440: {
+    //    perPage: 4,
+    //  },
+    //},
     autoStart: true,
     autoScroll: {speed: 10,}
   });
