@@ -535,7 +535,8 @@ section {
 
 .collections {
   /*  background: var(--accent-color);*/
-
+  border-radius: 5px;
+  border: 3px solid var(--accent-color);
   text-align: center;
   padding: 3rem 0;
 
@@ -566,8 +567,9 @@ section {
 }
 
 .collection {
-  border-radius: 5px;
-  border: 3px solid var(--accent-color);
+  /*border-radius: 5px;
+  border: 3px solid var(--accent-color);*/
+  background: var(--accent-color);
   width: 50%;
   margin: 1rem;
 }
