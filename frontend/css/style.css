@@ -632,6 +632,12 @@ section {
     flex-direction: column;
     gap: 2rem;
   }
+
+  .collections-info {
+  margin: 0 1rem;
+  }
+
+
 }
 
 /* SLIDDER */
