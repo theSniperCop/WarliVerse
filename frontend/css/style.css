@@ -415,9 +415,9 @@ section {
   text-align: center;
 }
 
-.countdown h2 {
-  /* margin-top: 1rem; */
-}
+/* .countdown h2 {
+  margin-top: 1rem;
+} */
 
 .countdown>p {
 /*   font-size: 1.5rem; */
@@ -455,9 +455,9 @@ section {
     padding-top: 0.5rem;
   }
 
-  .countdown p {
-    /* font-size: 1.5rem; */
-  }
+/*   .countdown p {
+    font-size: 1.5rem;
+  } */
 }
 
 /* MINT CONTAINER */
