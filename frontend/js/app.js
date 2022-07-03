@@ -44,7 +44,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     type   : 'loop',
     drag   : 'free',
     focus  : 'center',
-    perPage: 3,
+    perPage: 1,
     breakpoints: {
       640: {
         perPage: 1,
