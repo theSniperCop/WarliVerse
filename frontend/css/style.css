@@ -157,9 +157,9 @@ header .container {
   padding: 10px;
 }
 
-/* .intro-text p {
-  font-size: 1.5rem;
-} */
+.intro-text p {
+  line-height: 1.8;
+}
 
 /* MEDIA QUERIES */
 
