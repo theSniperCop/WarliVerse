@@ -523,7 +523,7 @@ section {
   background: var(--accent-color);
   text-align: center;
   padding: 3rem 0;
-  width: 50%;
+
 }
 
 .collections h1 {
@@ -547,6 +547,10 @@ section {
 .collections .row img {
   width: 90%;
   padding: 0 2rem;
+}
+
+.collection {
+  width: 50%;
 }
 
 /* MEDIA QUERIES */
