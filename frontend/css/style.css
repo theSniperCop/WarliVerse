@@ -552,6 +552,7 @@ section {
 
 .collection {
   width: 50%;
+  margin: 1rem;
 }
 
 /* MEDIA QUERIES */
