@@ -205,7 +205,7 @@ header .container {
 }
 
 .not-connected p {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-family: var(--font-primary);
   line-height: 1.8;
 }
@@ -237,7 +237,7 @@ header .container {
 
   .not-connected p,
   .not-connected a {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -251,7 +251,7 @@ header .container {
   font-family: var(--font-primary);
   font-style: normal;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-align: center;
   text-transform: capitalize;
   transition: all 0.3s ease;
@@ -279,7 +279,7 @@ header .container {
 
 .hero-btn {
   border-radius: 4px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   padding: 1.5rem 3rem;
 }
 
@@ -294,7 +294,7 @@ header .container {
   }
 
   .hero-btn {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -373,7 +373,7 @@ section {
 .countdown .clock-item .count-text {
   background: var(--btn-bg-color);
   font-family: var(--font-primary);
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: var(--bg-color);
   padding: 0.5rem 0.7rem;
   display: inline-block;
@@ -396,7 +396,7 @@ section {
 }
 
 .countdown>p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-family: var(--font-primary);
   margin-bottom: 2rem;
   text-align: center;
@@ -419,7 +419,7 @@ section {
   }
 
   .countdown .clock-item .count-text {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .countdown h1 {
@@ -432,7 +432,7 @@ section {
   }
 
   .countdown p {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -786,7 +786,7 @@ section {
 .roadmap-v2 p {
   background: var(--accent-color);
   color: #fff;
-  font-size: 1rem;
+  font-size: 1.5rem;
   border-radius: 5px;
   padding: 1rem 2rem;
 }
@@ -912,7 +912,7 @@ section {
 
 .faq p {
   position: relative;
-  font-size: 1rem;
+  font-size: 1.5rem;
   line-height: 1.8;
   font-family: var(--font-primary);
   overflow: hidden;
@@ -999,7 +999,7 @@ section {
   }
 
   .faq p {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
 
