@@ -542,6 +542,7 @@ section {
 
 .collections .row {
   display: flex;
+  justify-content: center;
 }
 
 .collections .row img {
@@ -550,7 +551,7 @@ section {
 }
 
 .collection {
-  width: 40%;
+  width: 50%;
 }
 
 /* MEDIA QUERIES */
