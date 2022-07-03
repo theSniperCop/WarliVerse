@@ -149,6 +149,10 @@ header .container {
   padding: 10px;
 }
 
+.intro-text p {
+  font-size: 1.5rem;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 800px) {
