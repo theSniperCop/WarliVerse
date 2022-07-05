@@ -77,7 +77,7 @@ code {
 header {
 /* background-image: url("frontend\images\x-icon\mobilebg.png"); */
 box-shadow: var(--header-shadow);
-/* background-image: url("../images/x-icon/mobilebg.png"); */
+background-image: url("../images/x-icon/mobilebg.png");
 }
 
 header .container {
@@ -112,7 +112,6 @@ header .container {
 
 .mobilebg {
   position: relative;
-  background-image: url("../images/x-icon/mobilebg.png");
   right: 0;
   bottom: 0;
 }
