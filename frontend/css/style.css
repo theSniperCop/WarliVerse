@@ -677,7 +677,7 @@ section {
 }
 
 .splide__slide {
-  /* border: var(--accent-color) solid; */
+  border: #83453800;
   border-width: 5px 5px;
 }
 
