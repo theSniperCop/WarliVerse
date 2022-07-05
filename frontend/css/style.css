@@ -74,13 +74,9 @@ code {
 /* HEADER */
 
 header {
-  /*background-color: var(--bg-color);*/
-  /* background-color: #361817; */
 /* background-image: url("frontend\images\x-icon\mobilebg.png"); */
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-  box-shadow: var(--header-shadow);
-
-  background-image: url("../images/x-icon/mobilebg.png");
+box-shadow: var(--header-shadow);
+background-image: url("../images/x-icon/mobilebg.png");
 }
 
 header .container {
@@ -677,8 +673,8 @@ section {
 }
 
 .splide__slide {
-  border: #83453800;
-  border-width: 5px 5px;
+  border: var(--accent-color) solid;
+  border-width: 5px 10px;
 }
 
 .splide__slide img {
