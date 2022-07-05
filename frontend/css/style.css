@@ -23,7 +23,11 @@
 }
 
 body {
-  background-image: url("../images/x-icon/body2.png");
+  /* background-image: url("../images/x-icon/body2.png"); */
+  background-color: #834538;
+  background-image: url("https://www.transparenttextures.com/patterns/diamond-upholstery.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  
   display: block;
   flex-flow: column;
   /*height: 100vh;*/
@@ -74,7 +78,7 @@ header {
   /*background-color: var(--bg-color);*/
   box-shadow: var(--header-shadow);
 
-  background-image: url("../images/x-icon/body2.png");
+  /* background-image: url("../images/x-icon/body2.png"); */
 }
 
 header .container {
