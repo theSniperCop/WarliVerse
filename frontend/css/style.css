@@ -75,6 +75,9 @@ code {
 
 header {
   /*background-color: var(--bg-color);*/
+  background-color: #361817;
+background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   box-shadow: var(--header-shadow);
 
   /* background-image: url("../images/x-icon/body2.png"); */
