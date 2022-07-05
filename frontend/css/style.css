@@ -75,8 +75,8 @@ code {
 
 header {
   /*background-color: var(--bg-color);*/
-  background-color: #361817;
-background-image: url("..images/x-icon/mobilebg.png");
+  /* background-color: #361817; */
+background-image: url("images/x-icon/mobilebg.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   box-shadow: var(--header-shadow);
 
