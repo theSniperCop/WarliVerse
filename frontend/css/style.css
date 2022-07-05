@@ -25,9 +25,8 @@
 body {
   /* background-image: url("../images/x-icon/body2.png"); */
   background-color: #834538;
-  background-image: url("https://www.transparenttextures.com/patterns/diamond-upholstery.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-  
+  background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */  
   display: block;
   flex-flow: column;
   /*height: 100vh;*/
@@ -613,7 +612,10 @@ section {
 .collection {
   /*border-radius: 5px;
   border: 3px solid var(--accent-color);*/
-  background: var(--accent-color);
+  /* background: var(--accent-color); */
+  background-color: #834538;
+  background-image: url("https://www.transparenttextures.com/patterns/diamond-upholstery.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   width: 100%;
   margin: 1rem;
   padding: 1rem;
@@ -742,7 +744,10 @@ section {
 
 .wrapper .row section {
   flex: initial;
-  background: var(--accent-color);
+  /* background: var(--accent-color); */
+  background-color: #834538;
+background-image: url("https://www.transparenttextures.com/patterns/diamond-upholstery.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   border-radius: 5px;
   width: calc(50% - 40px);
   padding: 20px;
@@ -901,7 +906,10 @@ section {
 /* TEAM */
 
 .team {
-  background: var(--accent-color);
+  /* background: var(--accent-color); */
+  background-color: #834538;
+background-image: url("https://www.transparenttextures.com/patterns/diamond-upholstery.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   text-align: center;
   padding: 3rem 0;
 }
