@@ -953,6 +953,7 @@ background-image: url("https://www.transparenttextures.com/patterns/diamond-upho
 /* FAQ */
 .faq {
   padding: 3rem;
+  margin-bottom: 5rem;
 }
 
 .faq ul li i:before,
