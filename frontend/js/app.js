@@ -61,7 +61,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     //  },
     //},
     autoStart: true,
-    autoScroll: {speed: 10,}
+    autoScroll: {speed: 100,}
   });
   splide.mount();
   AOS.init();
@@ -95,7 +95,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     //  },
     //},
     autoStart: true,
-    autoScroll: {speed: 10,}
+    autoScroll: {speed: 100,}
   });
   splide2.mount();
   AOS.init();
