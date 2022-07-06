@@ -82,7 +82,7 @@ header .container {
 flex-direction: row;
 justify-content: space-between;
 align-items: center;
-background-color: #00000040;
+background-color: #00000020;
 }
 
 .menu {
@@ -1087,7 +1087,9 @@ footer {
   text-align: center;
   font-weight: bold;
   padding: 2rem 0 2rem 0;
-  background: var(--accent-color);
+  background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  background-color: #00000020;
   color: var(--font-color);
 }
 
