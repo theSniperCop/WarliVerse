@@ -117,11 +117,12 @@ background-size: cover; */
   position: relative;
   right: 0;
   bottom: 0;
+  padding: 1rem;
 }
 
 .mobilebg .img {
   width: 100%;
-  padding: 1rem;
+  
 }
 
 /* INTRO */
