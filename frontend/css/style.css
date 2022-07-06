@@ -78,7 +78,7 @@ header {
 box-shadow: var(--header-shadow);
 }
 
-header .container {
+header .hcontainer {
 background-image: url("../images/x-icon/mobilebg.png");
 background-repeat: no-repeat;
 position: relative;
