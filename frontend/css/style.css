@@ -91,6 +91,10 @@ background-color: #00000020;
   align-items: center;
 }
 
+.logo {
+margin-left: 1rem;
+}
+
 @media screen and (max-width: 768px) {
   .logo img {
     width: 25vw;
