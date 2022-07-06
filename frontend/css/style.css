@@ -93,7 +93,7 @@ background-color: #00000020;
 
 @media screen and (max-width: 768px) {
   .logo img {
-    width: 25vw;
+    /* width: 25vw; */
     margin-right: 10vw;
   }
 
