@@ -78,9 +78,9 @@ header {
 box-shadow: var(--header-shadow);
 }
 
-.header-image header {
-  /* background-image: url("../images/x-icon/mobilebg.png"); */
-}
+/* .header-image header {
+background-image: url("../images/x-icon/mobilebg.png");
+} */
 
 header .container {
   flex-direction: row;
