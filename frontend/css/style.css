@@ -75,9 +75,11 @@ code {
 /* HEADER */
 
 header {
-/* background-image: url("frontend\images\x-icon\mobilebg.png"); */
 box-shadow: var(--header-shadow);
-background-image: url("../images/x-icon/mobilebg.png");
+}
+
+.header-image {
+  background-image: url("../images/x-icon/mobilebg.png");
 }
 
 header .container {
