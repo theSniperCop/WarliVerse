@@ -515,7 +515,15 @@
 
 
     <!-- FOOTER -->
-    <footer>Copyright &copy; WarliVerse 2022</footer>
+    <!-- <footer>Copyright &copy; WarliVerse 2022</footer> -->
+    //2: footer mistake - container closing tag
+    <footer id="site-footer" class="footer ">
+      <div class="container">
+        <div class="row"> 
+        Copyright &copy; WarliVerse 2022
+        </div>
+      </div>
+    </footer>
 
     <script src="js/metamask-onboarding.bundle.js"></script>
     <script src="js/web3.min.js"></script>
