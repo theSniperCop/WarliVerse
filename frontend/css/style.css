@@ -96,19 +96,24 @@ background-color: #00000020;
 margin-left: 1rem;
 }
 
+
+@media screen and (min-width: 601px) {
 .logo1 {
   display: none;
 }
+}
 
-@media screen and (max-width: 768px) {
-  .logo1 img {
-    width: 25vw;
-    margin-right: 10vw;
-  }
-
-  .logo2 {
+@media screen and (max-width: 600px) {
+    .logo2 {
     display: none;
   }
+}
+
+@media screen and (max-width: 768px) {
+  /* .logo1 img {
+    width: 25vw;
+    margin-right: 10vw;
+  } */
 
   .menu {
     gap: 1rem;
