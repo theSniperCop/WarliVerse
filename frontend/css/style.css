@@ -634,7 +634,7 @@ section {
   background-color: #834538;
   background-image: url("https://www.transparenttextures.com/patterns/diamond-upholstery.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-  width: 100%;
+  /* width: 100%; */
   margin: 1rem;
   padding: 1rem;
 }
@@ -649,7 +649,7 @@ section {
   .collection {
     border-radius: 5px;
     border: 3px solid var(--accent-color);
-    width: 100%;
+    /* width: 100%; */
     margin: 1rem;
   }
 
