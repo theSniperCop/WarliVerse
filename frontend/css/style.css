@@ -644,7 +644,7 @@ section {
 }
 
 .collections> div > div:nth-child(2) {
-  margin: 1rem 1rem 1rem 0;
+  margin: 1rem 1rem 1rem 1rem;
 }
 
 /* MEDIA QUERIES */
@@ -653,6 +653,10 @@ section {
 /*   .collections h1 {
     font-size: 2.5rem;
   } */
+
+  .collections> div > div:nth-child(2) {
+    margin: 1rem 1rem 1rem 0;
+  }
 
   .collection {
     border-radius: 5px;
