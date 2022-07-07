@@ -21,7 +21,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 body {
@@ -51,12 +51,12 @@ h2 {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.5;
 }
 
 a {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 code {
@@ -317,14 +317,14 @@ margin-left: 1rem;
 }
 
 .wallet-btn {
-  border-radius: 5rem;
+  border-radius: 3rem;
   margin-left: 2rem;
   margin-right: 1rem;
   border-color: transparent;
 }
 
 .hero-btn {
-  border-radius: 4px;
+  border-radius: 3px;
   font-size: 1rem;
   padding: 1.5rem 3rem;
 }
@@ -621,7 +621,7 @@ section {
   background-color: #834538;
   background-image: url("https://www.transparenttextures.com/patterns/diamond-upholstery.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-  width: 100%;
+  /* width: 100%; */
   margin: 1rem;
   padding: 1rem;
 }
@@ -636,7 +636,7 @@ section {
   .collection {
     border-radius: 5px;
     border: 3px solid var(--accent-color);
-    width: 100%;
+    /* width: 100%; */
     margin: 1rem;
   }
 
