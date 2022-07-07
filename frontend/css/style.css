@@ -581,10 +581,6 @@ section {
 
 /* COLLECTIONS */
 
-[data-aos] {
-  overflow: hidden;
-  }
-
 .collections {
   /*  background: var(--accent-color);
   border-radius: 5px;
@@ -726,6 +722,7 @@ section {
   margin: 50px auto;
   padding: 0 20px;
   position: relative;
+  overflow: hidden;
 }
 
 .wrapper .center-line {
