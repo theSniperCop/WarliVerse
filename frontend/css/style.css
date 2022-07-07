@@ -92,14 +92,22 @@ background-color: #00000020;
   align-items: center;
 }
 
-.logo {
+.logo1, logo2 {
 margin-left: 1rem;
 }
 
+.logo1 {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
-  .logo img {
+  .logo1 img {
     width: 25vw;
     margin-right: 10vw;
+  }
+
+  .logo2 {
+    display: none;
   }
 
   .menu {
