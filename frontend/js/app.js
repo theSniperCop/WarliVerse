@@ -31,6 +31,9 @@ window.addEventListener("DOMContentLoaded", async () => {
     });
   }
 
+  import { Splide } from '@splidejs/splide';
+  import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
+
   const splide = new Splide(".splide", {
     // type: "loop",
     // arrows: false,
@@ -41,10 +44,11 @@ window.addEventListener("DOMContentLoaded", async () => {
     // height: "25vw",
     // width: '25vw',
     // autoHeight: true,
+    start  :  1,
     type   : 'loop',
     drag   : 'free',
     focus  : 'center',
-    perPage: 1.25,
+    perPage: 1.1,
     
     //breakpoints: {
     //  640: {
@@ -63,7 +67,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     autoStart: true,
     autoScroll: {speed: 100,}
   });
-  splide.mount();
+  splide.mount( { AutoScroll } );
   AOS.init();
 
   const splide2 = new Splide(".splide2", {
@@ -76,10 +80,11 @@ window.addEventListener("DOMContentLoaded", async () => {
     // height: "25vw",
     // width: '25vw',
     // autoHeight: true,
+    start  :  1,
     type   : 'loop',
     drag   : 'free',
     focus  : 'center',
-    perPage: 1.25,
+    perPage: 1.1,
     //breakpoints: {
     //  640: {
     //    perPage: 1,
