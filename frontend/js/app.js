@@ -32,7 +32,7 @@ window.addEventListener("DOMContentLoaded", async () => {
   }
 
   const splide = new Splide(".splide", {
-  
+ 
     // arrows: false,
     // perMove: 3,
     pagination: false,
@@ -40,11 +40,13 @@ window.addEventListener("DOMContentLoaded", async () => {
     // width: '25vw',
     // autoHeight: true,
     // autoplay: true,
-    direction: 'ltr',
+    // direction: 'ltr',
     type   : 'loop',
     drag   : 'free',
     focus  : 'center',
-    perPage: 1.1,
+    perPage: 1.5,
+
+    // rewind: false,
     //breakpoints: {
     //  640: {
     //    perPage: 1,
@@ -60,7 +62,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     //  },
     //},
     // autoStart: true,
-    autoScroll: {speed: 2, autoStart: true, pauseOnHover: true, pauseOnFocus: false, rewind: true, }
+    autoScroll: {speed: 2, autoStart: true, pauseOnHover: true, pauseOnFocus: false,  }
   });
   splide.mount(window.splide.Extensions);
   AOS.init();
@@ -79,9 +81,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     drag   : 'free',
     focus  : 'center',
     perPage: 1.5,
-    autoScroll: {
-      speed: 2,
-    },
+
     // rewind: false,
     //breakpoints: {
     //  640: {
@@ -98,7 +98,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     //  },
     //},
     // autoStart: true,
-    // autoScroll: {speed: 2, autoStart: true, pauseOnHover: true, pauseOnFocus: false,  }
+    autoScroll: {speed: 2, autoStart: true, pauseOnHover: true, pauseOnFocus: false,  }
   });
   splide2.mount(window.splide.Extensions);
   AOS.init();
