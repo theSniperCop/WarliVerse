@@ -1,6 +1,4 @@
 let accounts;
-import { Splide } from '@splidejs/splide';
-import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
 
 // METAMASK CONNECTION
 window.addEventListener("DOMContentLoaded", async () => {
@@ -32,8 +30,6 @@ window.addEventListener("DOMContentLoaded", async () => {
       accounts = addr;
     });
   }
-
-
 
   const splide = new Splide(".splide", {
     // type: "loop",
@@ -68,7 +64,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     autoStart: true,
     autoScroll: {speed: 100,}
   });
-  splide.mount( { AutoScroll } );
+  splide.mount(window.splide.Extensions);
   AOS.init();
 
   const splide2 = new Splide(".splide2", {
@@ -103,7 +99,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     autoStart: true,
     autoScroll: {speed: 100,}
   });
-  splide2.mount();
+  splide2.mount(window.splide.Extensions);
   AOS.init();
 
 
