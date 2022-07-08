@@ -32,7 +32,7 @@ window.addEventListener("DOMContentLoaded", async () => {
   }
 
   const splide = new Splide(".splide", {
-    // type: "loop",
+    type: "loop",
     // arrows: false,
     // perMove: 3,
     // pagination: false,
@@ -67,10 +67,10 @@ window.addEventListener("DOMContentLoaded", async () => {
   AOS.init();
 
   const splide2 = new Splide(".splide2", {
-    // type: "loop",
+    type: "loop",
     // arrows: false,
     // perMove: 3,
-    // pagination: false,
+    pagination: false,
     // height: "25vw",
     // width: '25vw',
     // autoHeight: true,
