@@ -35,13 +35,12 @@ window.addEventListener("DOMContentLoaded", async () => {
   
     // arrows: false,
     // perMove: 3,
-    // pagination: false,
+    pagination: false,
     // height: "25vw",
     // width: '25vw',
     // autoHeight: true,
     // autoplay: true,
     direction: 'ltr',
-    start  :  1,
     type   : 'loop',
     drag   : 'free',
     focus  : 'center',
@@ -61,7 +60,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     //  },
     //},
     // autoStart: true,
-    autoScroll: {speed: 1, autoStart: true, pauseOnHover: true, pauseOnFocus: false, rewind: false, }
+    autoScroll: {speed: 2, autoStart: true, pauseOnHover: true, pauseOnFocus: false, rewind: false, }
   });
   splide.mount(window.splide.Extensions);
   AOS.init();
@@ -76,7 +75,6 @@ window.addEventListener("DOMContentLoaded", async () => {
     // autoHeight: true,
     // autoplay: true,
     direction: 'ltr',
-    start  :  1,
     type   : 'loop',
     drag   : 'free',
     focus  : 'center',
@@ -96,7 +94,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     //  },
     //},
     // autoStart: true,
-    autoScroll: {speed: 1, autoStart: true, pauseOnHover: true, pauseOnFocus: false, rewind: false, }
+    autoScroll: {speed: 2, autoStart: true, pauseOnHover: true, pauseOnFocus: false, rewind: false, }
   });
   splide2.mount(window.splide.Extensions);
   AOS.init();
