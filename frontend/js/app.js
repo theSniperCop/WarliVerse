@@ -74,11 +74,12 @@ window.addEventListener("DOMContentLoaded", async () => {
     // width: '25vw',
     // autoHeight: true,
     // autoplay: true,
-    // direction: 'ltr',
+    direction: 'ltr',
     type   : 'loop',
     drag   : 'free',
     focus  : 'center',
     perPage: 1.1,
+    rewind: false,
     //breakpoints: {
     //  640: {
     //    perPage: 1,
@@ -94,7 +95,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     //  },
     //},
     // autoStart: true,
-    autoScroll: {speed: 2, autoStart: true, pauseOnHover: true, pauseOnFocus: false, rewind: true, }
+    autoScroll: {speed: 2, autoStart: true, pauseOnHover: true, pauseOnFocus: false,  }
   });
   splide2.mount(window.splide.Extensions);
   AOS.init();
