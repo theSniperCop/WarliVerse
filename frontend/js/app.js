@@ -62,7 +62,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     //  },
     //},
     autoStart: true,
-    autoScroll: {speed: 1,}
+    autoScroll: {speed: 1, autoStart: boolean = true, rewind: boolean, pauseOnHover: boolean = true, pauseOnFocus: boolean = true, }
   });
   splide.mount(window.splide.Extensions);
   AOS.init();
