@@ -99,7 +99,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     autoStart: true,
     autoScroll: {speed: 1,}
   });
-  splide2.mount(AutoScroll );
+  splide2.mount(window.splide.Extensions);
   AOS.init();
 
 
