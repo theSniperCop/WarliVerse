@@ -78,7 +78,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     type   : 'loop',
     drag   : 'free',
     focus  : 'center',
-    perPage: 1.25,
+    perPage: 1.5,
     autoScroll: {
       speed: 2,
     },
