@@ -1132,7 +1132,7 @@ footer {
 
 /* Try */
 .container intro-block {
-  display: block;
+  display: block !important;
 }
 
 .inner-grid-left {
