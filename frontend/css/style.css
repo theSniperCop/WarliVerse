@@ -1137,7 +1137,7 @@ footer {
 }
 
 .container .intro-block p {
-align-content: center;
+text-align: center;
 }
 
 .inner-grid-left {
@@ -1166,3 +1166,18 @@ align-content: center;
   padding: 0 0 0 10px;
 }
 
+@media screen and (max-width: 768px) {
+  .inner-grid-left {
+    float: left;
+    /* flex: 25%; */
+    max-width: 50%;
+    padding: 0 0;
+  }
+  
+  .inner-grid-right {
+    float: right;
+    /* flex: 25%; */
+    max-width: 50%;
+    padding: 0 0;
+  }
+}
