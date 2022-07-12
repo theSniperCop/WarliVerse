@@ -1139,25 +1139,25 @@ footer {
   float: left;
   /* flex: 25%; */
   max-width: 25%;
-  padding: 0 4px;
+  padding: 0 0;
 }
 
 .inner-grid-right {
   float: right;
   /* flex: 25%; */
   max-width: 25%;
-  padding: 0 4px;
+  padding: 0 0;
 }
 
 .inner-grid-left img {
   margin-top: 8px;
   width: 100%;
-  padding: 10px;
+  padding: 0 10px 0 0;
 }
 
 .inner-grid-right img {
   margin-top: 8px;
   width: 100%;
-  padding: 10px;
+  padding: 0 10px 0 0;
 }
 
