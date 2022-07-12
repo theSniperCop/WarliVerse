@@ -1133,14 +1133,14 @@ footer {
 /* Try */
 .inner-grid-left {
   float: left;
-  flex: 25%;
+  /* flex: 25%; */
   max-width: 25%;
   padding: 0 4px;
 }
 
 .inner-grid-right {
   float: right;
-  flex: 25%;
+  /* flex: 25%; */
   max-width: 25%;
   padding: 0 4px;
 }
@@ -1151,19 +1151,5 @@ footer {
   padding: 10px;
 }
 
-/* MEDIA QUERIES */
 
-  @media screen and (max-width: 768px) {
-.inner-grid-left {
-  float: left;
-    flex: 50%;
-    max-width: 50%;
-  }
-  .inner-grid-right {
-    float: right;
-      flex: 50%;
-      max-width: 50%;
-    }
-
-  }
 
