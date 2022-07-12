@@ -1131,6 +1131,10 @@ footer {
 }
 
 /* Try */
+.container intro-block {
+  display: block;
+}
+
 .inner-grid-left {
   float: left;
   /* flex: 25%; */
@@ -1145,7 +1149,7 @@ footer {
   padding: 0 4px;
 }
 
-.inner-grid img {
+.inner-grid-left .inner-grid-right img {
   margin-top: 8px;
   width: 100%;
   padding: 10px;
