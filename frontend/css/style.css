@@ -1131,7 +1131,7 @@ footer {
 }
 
 /* Try */
-.container intro-block {
+.container .intro-block {
   display: block !important;
 }
 
@@ -1149,11 +1149,15 @@ footer {
   padding: 0 4px;
 }
 
-.inner-grid-left .inner-grid-right img {
+.inner-grid-left img {
   margin-top: 8px;
   width: 100%;
   padding: 10px;
 }
 
-
+.inner-grid-right img {
+  margin-top: 8px;
+  width: 100%;
+  padding: 10px;
+}
 
