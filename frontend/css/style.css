@@ -657,6 +657,12 @@ section {
 
 }
 
+.collections p {
+  text-align: center;
+margin: 1rem;
+
+}
+
 .collections h1 {
   color: var(--font-color);
   /* text-shadow: 2px 2px 0 var(--bg-color); */
@@ -997,6 +1003,10 @@ background-image: url("https://www.transparenttextures.com/patterns/diamond-upho
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   text-align: center;
   padding: 3rem 0;
+}
+
+.member-info p {
+  text-align: center;
 }
 
 .team h1 {
