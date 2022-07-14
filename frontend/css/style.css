@@ -178,12 +178,13 @@ margin-left: 1rem;
   display: block;
   flex-wrap: wrap;
   padding: 0 4px;
+  text-align: center;
 }
-.outer-grid-block p {
+/* .outer-grid-block p {
 
 text-align-last: center;
-  padding: 0 4px;
-}
+  padding: 0 px;
+} */
 
 /* .intro-text {
   flex: 50% !important;
