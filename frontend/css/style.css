@@ -148,15 +148,51 @@ margin-left: 1rem;
 }
 
 /* Try */
-.container .intro-block {
+
+
+/* TEST INTRO */
+.intro-test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  /*border: 3px solid var(--accent-color);*/
+}
+
+.container .intro-test {
   display: block !important;
   padding: 1rem;
 }
 
-/* .container .intro-block p {
-text-align: justify;
+.intro-test h1 {
+  text-align: center;
+  color: var(--font-color);
+  /* text-shadow: 2px 2px 0 var(--bg-color); */
+  /* font-style: italic; */
+  margin: 1rem 0 0 0;
+ /* font-size: 2.5rem;*/
+}
+
+.outer-grid-block {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* .intro-text {
+  flex: 50% !important;
+  max-width: 50% !important;
+  text-align: center;
+} */
+
+/* .intro-block {
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  margin: 0 auto 0 auto;
 
 } */
+
 
 .inner-grid-left {
   float: left;
@@ -184,21 +220,53 @@ text-align: justify;
   padding: 0 0 0 10px;
 }
 
-@media screen and (max-width: 768px) {
-  .inner-grid-left {
-    float: left;
-    /* flex: 25%; */
-    max-width: 50%;
-    padding: 0 0;
+/* .intro-text p {
+  line-height: 1.8;
+} */
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 800px) {
+  .inner-grid {
+    flex: 25%;
+    max-width: 25%;
   }
-  
-  .inner-grid-right {
-    float: right;
-    /* flex: 25%; */
-    max-width: 50%;
-    padding: 0 0;
+
+/*   .intro-text p {
+    font-size: 1rem;
+  } */
+
+  @media screen and (max-width: 768px) {
+    .intro-test {
+      margin-top: 1rem;
+    }
+
+    .inner-grid-left {
+      float: left;
+      /* flex: 25%; */
+      max-width: 50%;
+      padding: 0 0;
+    }
+    
+    .inner-grid-right {
+      float: right;
+      /* flex: 25%; */
+      max-width: 50%;
+      padding: 0 0;
+    }
   }
+
+  /* .intro-text {
+    flex: 50% !important;
+    max-width: 50% !important;
+  } */
+
+/*   .intro-text p {
+    font-size: 1rem;
+  } */
 }
+
+
 
 /* INTRO */
 .intro {
